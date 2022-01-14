@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="../style.css?v={random number/string}" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <title>New User Registration</title>
+    <meta charset="utf-8"/>
+    <style>
+    body{
+      background-image: url("bg.jpg");
+    }
+    </style>
+    </head>
+
+<div class="topnav">
+  <img src="logo.png" alt="logo" style="width:50px;height:50px;position:absolute; left:7px;">
+  <a href="#" style="padding-left: 4.5em; font-family: 'Jazz LET', fantasy; font-size: 130%"><b><b><i>MarkMyPage</i></b></b></a>
+  <a href="" style="padding-left: 55.8em"></a>
+  <a href="../homepage.html"><b>Home</b></a>
+  <a href="login.html"><b>Login</b></a>
+</div>
+
+  <body>
+    <form name="register" class="header3" action="newuseradded.php" method="post">
+    <div class="transbox">
+    <div class="text text-center">
+    <b><h2><b>Add a New User</b></h2></b>
+    <p><h4><b>First Name:</b></h4>
+    <input type="text" name="first_name" size="30" value="" required/>
+    </p>
+
+    <p><h4><b>Last Name</b></h4>
+    <input type="text" name="last_name" size="30" value="" required/>
+    </p>
+
+    <p><h4><b>Email:</b></h4>
+    <input type="text" id="email" name="email" size="30" value="" placeholder="me@example.com" required/>
+    </p>
+    <p><h4><b>Password:</b></h4>
+    <input type="password" name="password" size="30" value="" required/>
+    </p>
+
+    <p><b>
+    <input type="submit" name="submit" value="Send"/></b>
+    </p>
+    </form>
+    <a href="login.html"><b>Already a user? Login.</b></a>
+    </div>
+  </div>
+  </body>
+
+
+
+
+</html>

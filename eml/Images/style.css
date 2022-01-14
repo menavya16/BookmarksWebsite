@@ -1,0 +1,148 @@
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  opacity: 0.8;
+  margin-top: -100px;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+li{
+  list-style-type: none;
+}
+li{
+  font-family: 'Indie Flower', cursive;
+}
+
+
+div.transbox {
+  position: relative;
+  left: 500px;
+  margin: 50px;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px 10px;
+  opacity: 0.8;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  width: 400px;
+  height: 550px;
+  padding: 50px;
+
+
+}
+
+div.transbox p {
+  margin: 6%;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+div.transbox_b {
+  position: relative;
+  left: 185px;
+  margin: 60px;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px 10px;
+  opacity: 0.8;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  width: 900px;
+  height: 1050px;
+  padding: 50px;
+
+
+}
+
+div.transbox_b p {
+  margin: 2%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.centre{
+  width: 50%;
+  margin: 0 auto;
+}
+
+#header{
+  padding-top: 190px;
+  font-weight: 700;
+  padding-bottom: 0%;
+  font-size: 50px;
+
+}
+
+#header2{
+  padding-top: 50px;
+  font-weight: 700;
+  padding-bottom: 0%;
+  font-size: 50px;
+
+}
+
+#header3{
+  padding-top: 40%;
+}
+
+.spacing{
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  padding: 2px 0 70px 0;
+  position:relative;
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
+}
+
+.bottom {
+  padding-top: 200px;
+  padding-bottom: 40px;
+}
+
+body {
+  padding-top: 100px;
+  width:100%;
+  height:100%;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: bottom;
+  position: absolute;
+}
+
+.text,
+.btn {
+  font-family: 'Indie Flower', cursive;
+}
+.blog {
+  margin: 0 30px 0 30px;
+}
+
+.reg {
+  margin-bottom: 50px;
+}
+
+input {
+  background-color: rgba(0,0,0,0);
+}
+.question {
+  font-size: 25px;
+  font-family: 'Indie Flower', cursive;
+  background-color: rgba(0,0,0,0);
+}
+
+#user {
+  padding-top: 10%;
+}
+
+.discover {
+  padding-top: 100px;
+}
